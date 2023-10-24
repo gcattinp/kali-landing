@@ -1,0 +1,51 @@
+.icon-right-container {
+  position: absolute;
+  top: 90px;
+  right: 50px;
+  z-index: 3;
+}
+
+.icon-right {
+  width: 70px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.icon-right img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.icon-right .label {
+  color: #FFFFFF;
+  font-family: 'Menlo Regular', monospace;
+  font-size: 12px;
+}
+
+.icon-left-container {
+  position: absolute;
+  bottom: 60px;
+  left: 50px;
+  z-index: 3;
+}
+
+.icon-left {
+  width: 50px;
+  text-align: center;
+}
+
+.icon-left img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.icon-left .label {
+  padding-left: 5px;
+  color: #FFFFFF;
+  font-family: 'Menlo Regular', monospace;
+  font-size: 12px;
+}

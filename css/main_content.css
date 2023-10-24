@@ -1,0 +1,28 @@
+#main-content {
+  background-image: url('images/nani_bg.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: relative;
+}
+
+#main-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .8);
+  z-index: 1;
+}
+
+#logo {
+  text-align: center;
+  margin-left: 70px;
+}

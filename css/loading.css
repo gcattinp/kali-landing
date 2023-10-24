@@ -1,0 +1,45 @@
+.retro-container {
+  font-family: 'Menlo Regular', monospace;
+  font-weight: normal;
+  background-color: black;
+  color: white;
+  font-size: 0.9em;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-stretch: condensed;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.special-font-size {
+  font-size: 1.2em;
+}
+
+
+#phrase {
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  transition: opacity 1s ease-in-out;
+}
+
+#phrase br {
+  line-height: 2;
+}
+
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  transition: opacity 1s ease-in-out;
+}
