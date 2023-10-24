@@ -40,7 +40,7 @@ function displayNextLine() {
   if (currentLine < lines.length) {
       displayArea.innerHTML += lines[currentLine] + '\n';
       currentLine++;
-      setTimeout(displayNextLine, 1);
+      setTimeout(displayNextLine, 230);
   } else {
       setTimeout(() => {
           displayArea.style.opacity = '0';
@@ -54,9 +54,9 @@ function displayNextLine() {
                 mainContent.style.display = 'block';
                 setTimeout(() => {
                     mainContent.style.opacity = '1';
-                }, 1);
+                }, 50);
               }
-          }, 1);
-      }, 1);
+          }, 1000);
+      }, 1500);
   }
 }

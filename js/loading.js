@@ -26,15 +26,15 @@ document.addEventListener('DOMContentLoaded', function () {
           currentPhraseIndex++;
 
           if (currentPhraseIndex < phrases.length) {
-              setTimeout(displayNextPhrase, 1);
+              setTimeout(displayNextPhrase, 1200);
           } else {
               setTimeout(() => {
                   span.classList.remove('loading-dots');
                   displayNextLine();
-              }, 1);
+              }, 1500);
           }
       }
   }
 
-  setTimeout(displayNextPhrase, 1);
+  setTimeout(displayNextPhrase, 500);
 });
