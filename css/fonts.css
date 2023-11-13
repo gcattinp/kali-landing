@@ -2,13 +2,13 @@
   font-family: 'Menlo Regular';
   font-style: normal;
   font-weight: normal;
-  src: url('/fonts/Menlo-Regular.woff') format('woff');
+  src: url('/kali-landing/fonts/Menlo-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Charcoal';
-  src: url('/fonts/Charcoal2.woff') format('woff2'),
-       url('/fonts/Charcoal.woff') format('woff');
+  src: url('/kali-landing/fonts/Charcoal2.woff') format('woff2'),
+       url('/kali-landing/fonts/Charcoal.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
